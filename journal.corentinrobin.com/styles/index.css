@@ -1,0 +1,218 @@
+/* Auteur : Corentin Robin - Version : 09/10/2018 */
+
+@font-face
+{
+	font-family : Unna-Regular;
+	src : url(/fonts/Unna-Regular.ttf);
+}
+
+*
+{
+    box-sizing : border-box;
+}
+
+html, body
+{
+    margin : 0;
+    padding : 0;
+    width : 100%;
+}
+
+body
+{
+    font-family : Unna-Regular;
+    background-color : #17171d;
+    color : #aaaab3;
+    font-size : 20px;
+}
+
+header
+{
+    border-bottom : solid 1px #5d5d68;
+    position : fixed;
+    left : 0;
+    top : 0;
+    width : 100%;
+    background-color : #17171d;
+}
+
+header *
+{
+    transition : 200ms;
+}
+
+header > div
+{
+    display : flex;
+}
+
+header > div > div
+{
+    flex : 1;
+}
+
+header > div.title
+{
+    padding : 20px;
+    align-items : center;
+}
+
+header > div.title > div:first-child
+{
+    font-size : 30px;
+}
+
+header > div.title > div:last-child
+{
+    text-align : right;
+}
+
+
+header > div.title span.button img
+{
+    vertical-align : -6px;
+    margin-right : 5px;
+}
+
+header > div.information
+{
+    border-top: solid 1px #5d5d68;
+    padding: 10px 20px;
+}
+
+header > div.information > div:nth-child(2)
+{
+    text-align : center;
+}
+
+header > div.information > div:last-child
+{
+    text-align : right;
+}
+
+header.shrinked > div.title
+{
+    padding : 5px 20px;
+}
+
+header.shrinked > div.title span.button
+{
+    padding : 5px;
+}
+
+header.shrinked > div.title select
+{
+    padding : 4px;
+}
+
+header.shrinked > div.title > div:first-child
+{
+    font-size : 1em;
+    font-weight : bold;
+}
+
+header.shrinked > div.information
+{
+    font-size : 0.9em;
+    padding : 5px 20px;
+}
+
+main
+{
+    margin-top : 150px;
+    margin-bottom : 20px;
+}
+
+div.controls
+{
+    text-align : center;
+}
+
+div.controls > div
+{
+    margin : 10px 0;
+}
+
+div.links
+{
+    padding : 0 20px;
+    text-align : center;
+}
+
+div.links a
+{
+    color : #3a86c6;
+    margin : 5px;
+    display : inline-block;
+    text-decoration : none;
+    border : solid 1px #5d5d68;
+    padding : 5px;
+    border-radius : 6px;
+}
+
+div.links a:hover
+{
+    border : solid 1px #b0510f;
+}
+
+div.loading-message
+{
+    display : none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.visible.loading-message
+{
+    display : flex;
+}
+
+input,select
+{
+    font-size : 1em;
+    font-family : Unna-Regular;
+    border : solid 1px #5d5d68;
+    padding : 10px;
+    background-color : #121217;
+    color : white;
+    border-radius : 6px;
+}
+
+select
+{
+    padding : 9px;
+}
+
+input
+{
+    width : 400px;
+    background-image : url(../images/magnifier_icon.svg);
+    background-repeat : no-repeat;
+    background-position : 10px 10px;
+    padding-left : 42px;
+}
+
+span.button
+{
+    border : solid 1px #5d5d68;
+    padding : 10px;
+    cursor : pointer;
+    display : inline-block;
+    border-radius : 6px;
+    color : white;
+}
+
+span.highlighted
+{
+    background-color : #2eb72f;
+    color : black;
+    border-radius : 2px;
+}

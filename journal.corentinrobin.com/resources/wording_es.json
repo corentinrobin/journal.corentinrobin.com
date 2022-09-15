@@ -1,0 +1,32 @@
+{
+    "Edition" : "Edición",
+    "Refresh" : "Actualizar",
+    "Search" : "Buscar",
+    "Show all" : "Ver todo",
+    "Reading newspapers" : "Leyendo periodicos",
+    "website" : "sitio",
+    "article" : "artículo",
+    "e.g., london" : "p. ej., madrid",
+    "No result for" : "Ningún resultado para",
+
+    "Monday" : "lunes",
+    "Tuesday" : "martes",
+    "Wednesday" : "miércoles",
+    "Thursday" : "jueves",
+    "Friday" : "viernes",
+    "Saturday" : "sabado",
+    "Sunday" : "domingo",
+
+    "January" : "enero",
+    "February" : "febrero",
+    "March" : "marzo",
+    "April" : "abril",
+    "May" : "mayo",
+    "June" : "junio",
+    "July" : "julio",
+    "August" : "agosto",
+    "September" : "septiembre",
+    "October" : "octubre",
+    "November" : "noviembre",
+    "December" : "diciembre"
+}

@@ -1,0 +1,32 @@
+{
+    "fr" :
+    {
+        "language" : "fr",
+        "urls" :
+        [
+            "http://www.lefigaro.fr/",
+            "https://www.liberation.fr/"
+        ]
+    },
+
+    "uk" :
+    {
+        "language" : "en",
+        "urls" :
+        [
+            "https://www.bbc.co.uk/news/uk",
+            "https://www.theguardian.com/uk",
+            "https://www.huffingtonpost.co.uk"
+        ]
+    },
+
+    "es" :
+    {
+        "language" : "es",
+        "urls" :
+        [
+            "https://elpais.com/",
+            "https://www.elperiodico.com/es/"
+        ]
+    }
+}
